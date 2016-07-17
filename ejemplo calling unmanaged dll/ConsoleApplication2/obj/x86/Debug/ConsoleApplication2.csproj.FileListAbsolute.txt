@@ -1,0 +1,10 @@
+D:\Visual Studio 2010 projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\Visual Studio 2010 projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\Visual Studio 2010 projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2010 projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+D:\Visual Studio 2010 projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
+D:\Visual Studio 2010 projects\ejemplo calling unmanaged dll\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+D:\Visual Studio 2010 projects\ejemplo calling unmanaged dll\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
+D:\Visual Studio 2010 projects\ejemplo calling unmanaged dll\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\Visual Studio 2010 projects\ejemplo calling unmanaged dll\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\Visual Studio 2010 projects\ejemplo calling unmanaged dll\ConsoleApplication2\obj\x86\Debug\ResolveAssemblyReference.cache

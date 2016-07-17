@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECCGenerator</name>
+    </assembly>
+    <members>
+        <member name="M:ECCGenerator.Generator.GenerateCACertPkcs12(System.String,System.String,System.String,Org.BouncyCastle.Pkcs.X509CertificateEntry,System.String)">
+            <summary>
+            Genera un fichero PKCS#12 para una CA pasando como argumento un objeto de tipo X509CertificateEntry
+            </summary>
+            <param name="outputPath">Ruta de salida del fichero PKCS#12</param>
+            <param name="passwordPkcs">Password que tendrá el fichero PKCS#12</param>
+            <param name="keysPath">Ruta hacia el fichero que contiene las llaves a usar para generar el PKCS#12</param>
+            <param name="certificateEntry">Objeto que contiene el certificado auto-firmado de la CA</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el PKCS#12</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.GenerateCACertPkcs12(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Genera un fichero PKCS#12 para una CA pasando como argumento la ruta hacia el fichero que contiene el certificado auto-firmado
+            </summary>
+            <param name="outputPath">Ruta de salida del fichero PKCS#12</param>
+            <param name="passwordPkcs">Password que tendrá el fichero PKCS#12</param>
+            <param name="keysPath">Ruta hacia el fichero que contiene las llaves a usar para generar el PKCS#12</param>
+            <param name="cerFilePath">Ruta hacia el fichero que contiene el certificado auto-firmado de la CA</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el PKCS#12</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.CreateCACert(Org.BouncyCastle.Crypto.AsymmetricKeyParameter,Org.BouncyCastle.Crypto.AsymmetricKeyParameter,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Genera un objeto X509CertificateEntry auto-firmado
+            </summary>
+            <param name="pubKey">Clave pública del certificado</param>
+            <param name="privKey">Clave privada con que se firmará el certificado</param>
+            <param name="countValidMonths">Cantidad de meses en que será válido el certificado a partir de la fecha actual</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el certificado</param>
+            <param name="cn">CN</param>
+            <param name="ou">OU</param>
+            <param name="o">O</param>
+            <param name="l">L</param>
+            <param name="st">ST</param>
+            <param name="emailAddress">Email Address</param>
+            <returns></returns>
+        </member>
+        <member name="M:ECCGenerator.Generator.CreateCACert(Org.BouncyCastle.Crypto.AsymmetricKeyParameter,Org.BouncyCastle.Crypto.AsymmetricKeyParameter,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Genera un fichero que contiene un certificado digital auto-firmado
+            </summary>
+            <param name="pubKey">Clave pública del certificado</param>
+            <param name="privKey">Clave privada con que se firmará el certificado</param>
+            <param name="outputPath">Ruta de salida del fichero con el certificado auto-firmado</param>
+            <param name="countValidMonths">Cantidad de meses en que será válido el certificado a partir de la fecha actual</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el certificado</param>
+            <param name="cn">CN</param>
+            <param name="ou">OU</param>
+            <param name="o">O</param>
+            <param name="l">L</param>
+            <param name="st">ST</param>
+            <param name="emailAddress">Email Address</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.GenerateUserCertPkcs12(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             Genera un fichero PKCS#12 de usuario pasando como argumento la ruta hacia el fichero que contiene el certificado
+            </summary>
+            <param name="outputPath">Ruta de salida del fichero PKCS#12</param>
+            <param name="passwordPkcs">Password que tendrá el fichero PKCS#12</param>
+            <param name="keysPath">Ruta hacia el fichero que contiene las llaves a usar para generar el PKCS#12</param>
+            <param name="cerFilePath">Ruta hacia el fichero que contiene el certificado de usuario</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el PKCS#12</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.GenerateUserCertPkcs12(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             Genera un fichero con un certificado digital de usuario y su correspondiente fichero PKCS#12
+            </summary>
+            <param name="outputPathP12">Ruta de salida del fichero PKCS#12</param>
+            <param name="passwordPkcs">Password que tendrá el fichero PKCS#12</param>
+            <param name="outputPathCert">Ruta de salida del fichero con el certificado</param>
+            <param name="CAPathPkcs12">Ruta hacia el fichero PKCS#12 que contiene el certificado digital de la CA</param>
+            <param name="passwordCAPkcs12">Password del fichero PKCS#12 de la CA</param>
+            <param name="keysPath">Ruta hacia el fichero que contiene las llaves a usar para generar el PKCS#12</param>
+            <param name="countValidMonths">Cantidad de meses en que será válido el certificado a partir de la fecha actual</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el PKCS#12</param>
+            <param name="cn">CN</param>
+            <param name="ci">CI</param>
+            <param name="ou">OU</param>
+            <param name="o">O</param>
+            <param name="l">L</param>
+            <param name="st">ST</param>
+            <param name="emailAddress">Email Address</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.CreateUserCert(System.String,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Genera un objeto X509CertificateEntry de usuario a partir de una solicitud CSR
+            </summary>
+            <param name="CAPathPkcs12">Ruta hacia el fichero PKCS#12 que contiene el certificado digital de la CA</param>
+            <param name="passwordCAPkcs12">Password del fichero PKCS#12 de la CA</param>
+            <param name="countValidMonths">Cantidad de meses en que será válido el certificado a partir de la fecha actual</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el certificado</param>
+            <param name="csrFilePath">Ruta hacia el fichero de solicitud CSR</param>
+            <returns></returns>
+        </member>
+        <member name="M:ECCGenerator.Generator.CreateUserCert(System.String,System.String,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Genera un fichero con un certificado digital de usuario a partir de una solicitud CSR
+            </summary>
+            <param name="outputPath">Ruta de salida del fichero con el certificado</param>
+            <param name="CAPathPkcs12">Ruta hacia el fichero PKCS#12 que contiene el certificado digital de la CA</param>
+            <param name="passwordCAPkcs12">Password del fichero PKCS#12 de la CA</param>
+            <param name="countValidMonths">Cantidad de meses en que será válido el certificado a partir de la fecha actual</param>
+            <param name="friendlyName">Nombre descriptivo que tendrá el certificado</param>
+            <param name="csrFilePath">Ruta hacia el fichero de solicitud CSR</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.ReadKeys(System.String)">
+            <summary>
+            Lee el contenido de un fichero que contiene un par de llaves y lo retorna como un objeto AsymmetricCipherKeyPair
+            </summary>
+            <param name="keysPath">Ruta hacia el fichero con las llaves</param>
+            <returns></returns>
+        </member>
+        <member name="M:ECCGenerator.Generator.GenerateCSRKeysFile(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Genera un fichero de solicitud CSR y un par de llaves asociadas
+            </summary>
+            <param name="outputCSRPath">Ruta de salida del fichero CSR</param>
+            <param name="outputKeysPath">Ruta de salida de las llaves</param>
+            <param name="curveName">Nombre de la curva elíptica estándar a utilizar</param>
+            <param name="cn">CN</param>
+            <param name="ci">CI</param>
+            <param name="ou">OU</param>
+            <param name="o">O</param>
+            <param name="l">L</param>
+            <param name="st">ST</param>
+            <param name="emailAddress">Email Address</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.CreateKeys(System.String)">
+            <summary>
+            Genera un par de llaves a partir del nombre de una curva elíptica estándar
+            </summary>
+            <param name="curveName">Nombre de la curva elíptica estándar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ECCGenerator.Generator.CreateKeys(System.String,System.String)">
+            <summary>
+            Genera un fichero con un par de llaves a partir del nombre de una curva elíptica estándar
+            </summary>
+            <param name="curveName">Nombre de la curva elíptica estándar</param>
+            <param name="outputPath">Ruta de salida del fichero con las llaves</param>
+        </member>
+        <member name="M:ECCGenerator.Generator.ReadCSRFile(System.String)">
+            <summary>
+            Lee el contenido de un fichero que contiene una solicitud CSR y lo retorna como un objeto Pkcs10CertificationRequest
+            </summary>
+            <param name="path">Ruta hacia el fichero de solicitud CSR</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\ConsoleAppTest.exe
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\ConsoleAppTest.pdb
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\crypto.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\nunit.core.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\nunit.framework.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\nunit.core.interfaces.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\crypto.pdb
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\crypto.xml
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\obj\x86\Debug\ConsoleAppTest.exe
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\obj\x86\Debug\ConsoleAppTest.pdb
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\ECCGenerator.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\ECCGenerator.pdb
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ConsoleAppTest\bin\Debug\ECCGenerator.xml

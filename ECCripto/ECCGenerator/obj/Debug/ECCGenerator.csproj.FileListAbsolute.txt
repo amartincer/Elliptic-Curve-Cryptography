@@ -1,0 +1,12 @@
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\ECCGenerator.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\ECCGenerator.pdb
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\crypto.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\nunit.core.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\nunit.framework.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\nunit.core.interfaces.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\crypto.pdb
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\crypto.xml
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\obj\Debug\ECCGenerator.dll
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\obj\Debug\ECCGenerator.pdb
+D:\Visual Studio Projects\Visual Studio Projects 2010\ECCripto\ECCGenerator\bin\Debug\ECCGenerator.dll.config
